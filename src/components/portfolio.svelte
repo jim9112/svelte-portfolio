@@ -1,16 +1,22 @@
 <script lang="ts">
-import { loop_guard } from 'svelte/internal';
-
     import PortfolioCard from './portfolioCard.svelte'
     const portfolioList = [
-        'one', 'two', 'three'
+        {title: "DevProjectPlanner"}, {title: "Coffeeroasters Site"}, {title: "Math Flashcards"}
     ]
 </script>
 
 
-<div>
-    
-    {#each portfolioList as portfolio}
-    <PortfolioCard />
-{/each}
+<div class="container">
+   <!-- Add Portfolio card for each project -->
+    {#each portfolioList as project}
+        <PortfolioCard title={project.title} />
+    {/each}
 </div>
+
+<style>
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+}
+</style>
