@@ -1,0 +1,3 @@
+<div>
+    <p>Hello, my name is James. I live in New Hampshire and I am looking for my first role as a web/software developer. I recently graduated Summa Cum Laude from Southern New Hampshire University with a BS in Information Technology and concentration in Web Design and Development. I enjoy building projects with JavaScript and have been spending a lot of time with React recently. Feel free to check out my resume, GitHub, or LinkedIn page linked below if you are interested in learning more. </p>
+</div>
