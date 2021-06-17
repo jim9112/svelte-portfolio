@@ -1,6 +1,6 @@
 <script lang="ts">
     import Portfolio from '../components/portfolio.svelte'
-import Header from '../components/header.svelte'
+    import Header from '../components/header.svelte'
     import Hero from '../components/hero.svelte'
     import SectionContainer from '../components/sectionContainer.svelte'
     import SkillsSection from '../components/skillsSection.svelte'
