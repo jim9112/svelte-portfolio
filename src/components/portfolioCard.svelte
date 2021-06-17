@@ -2,6 +2,7 @@
     export let title: string
     export let description: string
     export let liveLink: string
+    export let repo: string
 </script>
 
 <div class="card">
@@ -11,7 +12,7 @@
 <div class="buttonContainer">
     <ul class="actions">
         <li><a href={liveLink} target="blank">Live Project</a></li>
-
+        <li><a href={repo} target="blank">See The Code</a></li>
     </ul>
 </div>
 </div>
@@ -30,12 +31,13 @@
     p {
         text-align: left;
     }
-    ul {
-        list-style: none;
+    li {
+        margin: 5px;
     }
     .actions {
         display: flex;
         justify-content: center;
+        list-style: none;
     }
     .buttonContainer {
         padding: 2rem 1rem;
